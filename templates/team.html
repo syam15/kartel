@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team Section | By Code Info</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Executive Team</h2>
+        <hr>
+        <div class="members">
+            <div class="team-mem">
+                <img src="{{ url_for('static', filename='pic/team1.jpg') }}" alt="Mrs. Emma">
+                <h4>Mrs. Emma</h4>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="team-mem">
+                <img src="{{ url_for('static', filename='pic/team2.jpg') }}" alt="Mr. David">
+                <h4>Mr. David</h4>
+                <p>Soft Engineer</p>
+            </div>
+            <div class="team-mem">
+                <img src="{{ url_for('static', filename='pic/team3.jpg') }}" alt="Mr. Liam">
+                <h4>Mr. Liam</h4>
+                <p>Web Developer</p>
+            </div>
+            <div class="team-mem">
+                <img src="{{ url_for('static', filename='pic/team4.jpg') }}" alt="Mrs. Sophia">
+                <h4>Mrs. Sophia</h4>
+                <p>Product Manager</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
